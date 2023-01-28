@@ -11,7 +11,7 @@ import BaseRouter from "./routes";
 const app = express();
 
 /**
- * Add middleware/settings/routes to express.
+ * Add middleware/settings/routes to express
  */
 app.use(cors()); // for testing only - make more specific for production app
 app.use(helmet());
